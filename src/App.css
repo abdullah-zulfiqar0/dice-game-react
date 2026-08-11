@@ -209,6 +209,80 @@ p {
     font-size: 16px;
   }
 }
+media (max-width: 768px) {
+  /* Landing Screen */
+  .container {
+    flex-direction: column;
+    text-align: center;
+    padding-top: 40px;
+  }
 
+  .content {
+    align-items: center;
+  }
+
+  .content h1 {
+    font-size: 48px;
+    white-space: normal;
+  }
+
+  /* Main Game Screen Top Bar */
+  .top-section {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .numberselectedcontainer {
+    align-items: center;
+  }
+
+  .flex {
+    gap: 10px;
+  }
+
+  .box {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+
+  .score-container h1 {
+    font-size: 70px;
+    line-height: 70px;
+  }
+
+  .score-container p,
+  .numberselectedcontainer p,
+  .dice-container p {
+    font-size: 18px;
+  }
+
+  .dice img {
+    max-width: 180px;
+  }
+
+  .play-now-btn,
+  .reset-btn {
+    width: 100%;
+    max-width: 280px;
+  }
+}
+
+@media (max-width: 400px) {
+  .flex {
+    gap: 6px;
+  }
+
+  .box {
+    height: 42px;
+    width: 42px;
+    font-size: 16px;
+  }
+
+  .content h1 {
+    font-size: 36px;
+  }
+}
 
 
