@@ -21,9 +21,7 @@ The application allows users to:
 - Lose points when the selected number does not match the dice result
 - View the updated score dynamically
 
-### Screenshot
 
-![React Dice Game Preview](./preview.jpg)
 
 ### Live Demo
 
